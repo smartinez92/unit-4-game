@@ -1,0 +1,24 @@
+h2{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+h3{
+    background-color: lightblue;
+    color: black;
+    padding-left: 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+.para{
+    background-color: mediumslateblue;
+    color: white;
+    padding: 10px;
+}
+
+.randNum{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
