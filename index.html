@@ -12,19 +12,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="images" href="assets/images/--">
     <script src="assets/javascript/game.js"></script>
 
     <title>Crystal Collector</title>
 </head>
 
-<body>
+<!-- image background-->
+<body> 
 
     <div class="container">
         <div class="row">
             <div class="col-lg-6 para">
 
-                <!-- Header -->
+                <!-- Header/intructions -->
                 <h2 class="display-5">Crystal Collector!</h2>
 
                 <br>
@@ -44,39 +44,42 @@
         </div>
 
         <br>
-        <!--<div class="row"> -->
+        <!-- random winning number, wins and losses -->
 
-            <h3 class="randNum scoreboard"></h3>
+        <h3 id="randNum scoreboard"></h3>
 
-            <p class="wins">Wins: </p> 
+        <p class="tally" id="wins">Wins: </p>
 
-            <p class="loss"> Loss: </p>
+        <p class="tally" id="loss"> Loss: </p>
 
-            <br>
+        <br> <br>
 
-        <!-- </div>-->
+        <!-- Here we made the buttons for each crystal -->
 
         <div id="buttons">
 
-            <button id="crystals">
+            <button id="crystalG">
                 <img src="assets/images/greenrupee.png" width=35px height=auto>
             </button>
 
-            <button id="crystals">
+            <button id="crystalB">
                 <img src="assets/images/bluerupee.png" width=35px height=auto>
             </button>
 
-            <button id="crystals">
+            <button id="crystalR">
                 <img src="assets/images/redrupee.png" width=35px height=auto>
             </button>
 
-            <button id="crystals">
+            <button id="crystalP">
                 <img src="assets/images/purplerupee.png" width=35px height=auto>
             </button>
 
 
         </div>
 
+        <br>
+
+        <!-- We display the score here -->
         <div class="row">
 
             <p> Your total score is: </p>
@@ -91,6 +94,9 @@
 
         </div>
 
+        <div id="game">
+
+        </div>
 
 
 

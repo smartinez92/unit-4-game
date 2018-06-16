@@ -1,14 +1,19 @@
 h2{
     background-color: purple;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 h3{
     background-color: lightblue;
     color: black;
-    padding-left: 25px;
     float: left;
-    margin-right: 5px;
+    margin-right: 35px;
+    text-align: center;
+    padding: 3%;
+}
+
+body{
+    background-color: peachpuff;
 }
 
 .para{
@@ -17,8 +22,11 @@ h3{
     padding: 10px;
 }
 
-.randNum{
-    text-align: center;
-    padding-bottom: 50px;
-    padding-right: 50px;
+#game{
+    float: left;
+    color: white;
+    background-color: gray;
+    padding: 1.5%;
 }
+
+
